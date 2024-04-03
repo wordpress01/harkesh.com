@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harkesh Sharma</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Additional CSS for image styling */
+    .profile-img {
+      max-width: 100%;
+      height: auto;
+    }
+    .video-container {
+      position: relative;
+      width: 100%;
+      max-width: 800px; /* Adjust the maximum width of the video container */
+      margin: 0 auto;
+    }
+    .video-container video {
+      width: 100%;
+      height: auto;
+    }
+    details{
+    margin-left: 2px;
+    }
+    summary{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    }
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+    }
+    footer{
+      font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Harkesh Sharma</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <!-- You can add more navbar links here if needed -->
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Profile Image -->
+  <div class="container mt-4">
+    <img src="harkeshsharma.jpg" alt="Harkesh Sharma" class="profile-img img-fluid rounded mx-auto d-block">
+  </div>
+
+  <!-- About Section -->
+  <div class="container mt-4">
+    <h2>About Harkesh Sharma</h2>
+    <p>Harkesh Sharma is a hon'able student of Sunderdeep engineering college affilated to abdul kalam tecnical university. he is pirsuing btech degree form cse in specialization with internet of things . he lives in dasna near old toll tax . he loves cricket .</p>
+  </div>
+
+  <!-- Video Buttons -->
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Click the Button to Play the Video</h2>
+    <!-- Video Button -->
+    <button id="play-video-btn" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#videoModal">Play Video</button>
+  </div>
+
+  <!-- Video Modal -->
+  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="videoModalLabel">Video Player</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <video id="modal-video" controls muted>
+            <source src="VID20240305123704.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Audio Files -->
+  <div class="container mt-4">
+    <h2>Short Review Audio from Mr.Harkesh</h2>
+    <audio id="audio1" controls preload="auto" volume="1">
+      <source src="harkesh1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <h2>Review From his Friends 😆</h2>
+    <audio id="audio2" controls preload="auto" volume="1">
+      <source src="harkesh2.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="audio3" controls preload="auto" volume="1">
+      <source src="harkesh3.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="audio4" controls preload="auto" volume="1">
+      <source src="harkesh4.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="audio5" controls preload="auto" volume="1">
+      <source src="harkesh5.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="audio6" controls preload="auto" volume="1">
+      <source src="harkesh6.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Scroll Down to See the Video</h2>
+    <!-- Video Container -->
+    <div class="video-container">
+      <video id="autoplay-video">
+        <source src="Climax to abhi baki hai meme download __ Aur abhi to ruko __ No Copyright Carryminati Meme.mp4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+  <details>
+    <summary>If you wanna read more click here 😏😎😂<b>⬅</b></summary>
+    <p>Harkesh apni class ka sbse chutiya ladka h , ye sabko gaand deta h aur baadme sabka muh me leta h iske aage koi nhi tik sakta iski to mia khalifa bhi choddh deti h dildo laga kar (IF YOU ARE A GIRL GIRL AND READING THIS YOU CAN ALSO BOOK ONLINE FOR DILDO AND FUCK HARKESH SHARMA AT SUNDERDEEP GLOBAL UNIVERSITY THIRD FLOOR) ye class me boht kam bolta h iska best friend h ansh tyagi uski ye roz chat ta h gaand akele me , iski shadi ho chuki h iski biwi ka naam sonpari h , ye napunsak h ye bacche paida nhi kar sakta isi gham me sabko apni aulad bolta h but iski khud ki aulad kisi ne paida ki h , ab iski biwi apne ghar chali gyi jab usko pta chala ke yeh bhi DNA(DADDY's NAZAIS AULAD) hai, aaj ke liye bss itna hi follow kare harkesh ko instagram aur facebook pr .</p>
+  </details>
+
+  <div class="container center">
+    <!-- Instagram Button -->
+    <a href="https://www.instagram.com/gaurabh_bhardwaj_007" target="_blank" class="btn btn-primary btn-lg">Visit Instagram Profile</a>
+  </div>
+
+
+  <footer class="footer mt-auto py-3 ">
+    <div class="container text-center">
+      <span class="text-muted">Harkesh Sharma | +91-76689-56866</span>
+
+    </div>
+  </footer>
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script>
+    $(document).ready(function() {
+      // Play the video when the modal is opened
+      $('#videoModal').on('shown.bs.modal', function() {
+        $('#modal-video')[0].play();
+      });
+
+      // Pause the video when the modal is closed
+      $('#videoModal').on('hidden.bs.modal', function() {
+        $('#modal-video')[0].pause();
+      });
+    });
+
+
+    // Increase the volume of audio files
+    var audios = document.getElementsByTagName("audio");
+    for (var i = 0; i < audios.length; i++) {
+      audios[i].volume = 1.0; // Setting volume to maximum
+    }
+  </script>
+
+  <script>
+    var video = document.getElementById('autoplay-video');
+
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          video.play(); // Play the video when it comes into view
+        } else {
+          video.pause(); // Pause the video when it goes out of view
+        }
+      });
+    }, { threshold: 0.5 }); // You can adjust the threshold as needed
+
+    observer.observe(video);
+  </script>
+</body>
+</html>
